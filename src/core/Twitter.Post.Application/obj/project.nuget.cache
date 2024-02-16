@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "utDhsfSQiD0Kpxks8c7deagAId8ffo7bxZNE7mCll+vdUKWTgon9zsrQhPJWZdQdFoLiPK5Ou8oOeQ99M6BOog==",
+  "dgSpecHash": "j8hr20GEqsT/gfKysoZLireMFDoM5t+EgCUjZbRqi32uu8OwUaXLrmYw6mFqLPZIY9VnEBUkaK9qeufynPjYOA==",
   "success": true,
   "projectFilePath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj",
   "expectedPackageFiles": [],

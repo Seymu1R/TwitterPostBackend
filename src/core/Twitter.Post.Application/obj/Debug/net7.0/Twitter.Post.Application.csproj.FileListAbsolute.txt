@@ -1,0 +1,15 @@
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/bin/Debug/net7.0/Twitter.Post.Application.deps.json
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/bin/Debug/net7.0/Twitter.Post.Application.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/bin/Debug/net7.0/Twitter.Post.Application.pdb
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/bin/Debug/net7.0/Twitter.Post.Domain.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/bin/Debug/net7.0/Twitter.Post.Domain.pdb
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.csproj.AssemblyReference.cache
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.AssemblyInfoInputs.cache
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.AssemblyInfo.cs
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.csproj.CoreCompileInputs.cache
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.csproj.CopyComplete
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/refint/Twitter.Post.Application.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/Twitter.Post.Application.pdb
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/obj/Debug/net7.0/ref/Twitter.Post.Application.dll

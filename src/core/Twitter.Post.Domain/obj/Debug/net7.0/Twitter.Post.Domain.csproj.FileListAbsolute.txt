@@ -1,0 +1,12 @@
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/bin/Debug/net7.0/Twitter.Post.Domain.deps.json
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/bin/Debug/net7.0/Twitter.Post.Domain.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/bin/Debug/net7.0/Twitter.Post.Domain.pdb
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/Twitter.Post.Domain.csproj.AssemblyReference.cache
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/Twitter.Post.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/Twitter.Post.Domain.AssemblyInfoInputs.cache
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/Twitter.Post.Domain.AssemblyInfo.cs
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/Twitter.Post.Domain.csproj.CoreCompileInputs.cache
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/Twitter.Post.Domain.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/refint/Twitter.Post.Domain.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/Twitter.Post.Domain.pdb
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/obj/Debug/net7.0/ref/Twitter.Post.Domain.dll

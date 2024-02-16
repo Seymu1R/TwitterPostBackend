@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "JnHVLRTrZ+yBU+40OgGX9PnB0La40cH6phCqfc3Eyn68Fr/nLWBT62Pl+U20pedUgNUebY3zuzYlU9Rieo60AQ==",
-  "success": false,
+  "dgSpecHash": "jBi+xAuLa+qLe3PJbmybOOnJ2RruM6k0FSabCZG3GfCfxPKPVxVGR8YZEGUOY9L/364H4E2FNIbs5s+9WDCe8w==",
+  "success": true,
   "projectFilePath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/TwitterPost.Persistence/TwitterPost.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/cubics/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/cubics/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/home/cubics/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/home/cubics/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
-    "/home/cubics/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
-    "/home/cubics/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
-    "/home/cubics/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "/home/cubics/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
+    "/home/cubics/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+    "/home/cubics/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
     "/home/cubics/.nuget/packages/microsoft.entityframeworkcore.design/7.0.0/microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "/home/cubics/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.0/microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "/home/cubics/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.0/microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
@@ -44,15 +44,5 @@
     "/home/cubics/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
     "/home/cubics/.nuget/packages/zstdsharp.port/0.6.2/zstdsharp.port.0.6.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.5 to 7.0.0. Reference the package directly from the project to select a different version. \n TwitterPost.Persistence -> MongoDB.EntityFrameworkCore 7.0.0-preview.1 -> Microsoft.EntityFrameworkCore (>= 7.0.5) \n TwitterPost.Persistence -> Microsoft.EntityFrameworkCore (>= 7.0.0)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
