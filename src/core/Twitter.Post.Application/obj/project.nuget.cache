@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "j8hr20GEqsT/gfKysoZLireMFDoM5t+EgCUjZbRqi32uu8OwUaXLrmYw6mFqLPZIY9VnEBUkaK9qeufynPjYOA==",
+  "dgSpecHash": "I8qnkkJCzayD64hMeLlyjlpWWKKbPgFpdGxotq2G4O5opRsKcJFkN8uRJasMFDIG+RGm+Ghv2n1GVSKNVxcxyQ==",
   "success": true,
   "projectFilePath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/cubics/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/cubics/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/cubics/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/cubics/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/cubics/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/cubics/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/cubics/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

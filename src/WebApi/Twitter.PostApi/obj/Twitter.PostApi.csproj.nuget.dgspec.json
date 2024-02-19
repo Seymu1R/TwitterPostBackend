@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/TwitterPost.Persistence/TwitterPost.Persistence.csproj": {}
+    "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/Twitter.PostApi.csproj": {}
   },
   "projects": {
     "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/TwitterPost.Persistence/TwitterPost.Persistence.csproj": {
@@ -72,6 +72,78 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.116/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/Twitter.PostApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/Twitter.PostApi.csproj",
+        "projectName": "Twitter.PostApi",
+        "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/Twitter.PostApi.csproj",
+        "packagesPath": "/home/cubics/.nuget/packages/",
+        "outputPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/cubics/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/TwitterPost.Persistence/TwitterPost.Persistence.csproj": {
+                "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/TwitterPost.Persistence/TwitterPost.Persistence.csproj"
+              },
+              "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj": {
+                "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj"
+              },
+              "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/Twitter.Post.Domain.csproj": {
+                "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/Twitter.Post.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
