@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I6R7PdasvuKCRLUqdJorgcyBoYco/cqPlb2k+EuFEYc=",
+  "Source": "Twitter.PostApi",
+  "BasePath": "_content/Twitter.PostApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Twitter.Post.Application.Interfaces.Repository;
 using MediatR;
+using Twitter.Post.Application;
 
 namespace Twitter.PostApi.Controllers;
 
@@ -8,13 +9,15 @@ namespace Twitter.PostApi.Controllers;
 [ApiController]
 public class PostController : ControllerBase
 {
-    private readonly IPostRepository postRepository;
-    readonly IMediator mediator;
+   readonly IMediator _mediator;
 
-    public PostController(IPostRepository repository)
+    public PostController(IMediator mediator)
     {
-        this.postRepository = repository;
+        _mediator = mediator;
     }
     
+        [HttpPost("CreatePost")]
+        public async Task<IActionResult> CreatePost(CreatePostCommand createCommandPost) =>
+            Ok(await _mediator.Send(createCommandPost));      
     
 }
