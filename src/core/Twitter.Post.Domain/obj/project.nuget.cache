@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pyhBwZKpRkksFFkO4qGV1PTBKEnx4e6+HX3ldR/3U44kxvRaAfyUlPBDksywtBOx6yssivTe7eXNoRUVRsSRCQ==",
+  "dgSpecHash": "IPJNcCG/pxoUiWAyIUilDwOErsyUvjB4e9nNLMqVdsAkYFzrpCZL4JZaI33m9ZD4DjQp82vGmJ+Dvmli9BAaAw==",
   "success": true,
   "projectFilePath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/Twitter.Post.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/cubics/.nuget/packages/mongodb.bson/2.24.0/mongodb.bson.2.24.0.nupkg.sha512",
+    "/home/cubics/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/home/cubics/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

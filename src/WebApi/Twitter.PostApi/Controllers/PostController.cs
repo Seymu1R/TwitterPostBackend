@@ -16,8 +16,8 @@ public class PostController : ControllerBase
         _mediator = mediator;
     }
     
-        [HttpPost("CreatePost")]
-        public async Task<IActionResult> CreatePost(CreatePostCommand createCommandPost) =>
-            Ok(await _mediator.Send(createCommandPost));      
+    [HttpPost("CreatePost")]
+    public async Task<IActionResult> CreatePost(CreatePostCommand createCommandPost) =>
+       Ok(await _mediator.Send(createCommandPost));      
     
 }

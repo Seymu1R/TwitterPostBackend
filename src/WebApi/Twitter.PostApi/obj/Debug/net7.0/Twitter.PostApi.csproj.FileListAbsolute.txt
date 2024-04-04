@@ -56,3 +56,8 @@
 /home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/obj/Debug/net7.0/Twitter.PostApi.pdb
 /home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/obj/Debug/net7.0/Twitter.PostApi.genruntimeconfig.cache
 /home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/obj/Debug/net7.0/ref/Twitter.PostApi.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll

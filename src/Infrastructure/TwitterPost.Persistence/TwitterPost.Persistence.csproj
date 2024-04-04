@@ -12,6 +12,10 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+      <PackageReference Include="MongoDB.Driver" Version="2.24.0" />
+      <PackageReference Include="MongoDB.Driver.Core" Version="2.24.0" />
       <PackageReference Include="MongoDB.EntityFrameworkCore" Version="7.0.0-preview.1" />
     </ItemGroup>
 

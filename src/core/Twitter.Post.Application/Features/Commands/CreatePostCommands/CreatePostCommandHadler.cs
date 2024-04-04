@@ -1,6 +1,7 @@
 using System.Net;
 using AutoMapper;
 using MediatR;
+using MongoDB.Bson;
 using Twitter.Post.Application.Interfaces.Repository;
 using Twitter.Post.Application.Wrappers;
 using Twitter.Post.Domain.Entities;
@@ -20,6 +21,8 @@ namespace Twitter.Post.Application
 
         public async Task<BaseResponse> Handle(CreatePostCommand request, CancellationToken cancellationToken)
         {
+            Console.WriteLine(request.ToJson() + "Seymuradsdasfsa");
+
             Twitter.Post.Domain.Entities.Post post = _mapper.Map<Twitter.Post.Domain.Entities.Post>(request); 
             
             await _postRepository.AddAsync(post);

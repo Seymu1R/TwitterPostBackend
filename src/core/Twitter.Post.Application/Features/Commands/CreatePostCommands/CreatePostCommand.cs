@@ -7,9 +7,9 @@ namespace Twitter.Post.Application
 {
   public class CreatePostCommand : IRequest<BaseResponse> 
   {
-    public string Text { get; set; }
+    public string  Text { get; set; }
     public string? Media { get; set; }
-    public Guid? ParentId { get; set; }
+    public string? ParentId { get; set; }
   }
 }
 

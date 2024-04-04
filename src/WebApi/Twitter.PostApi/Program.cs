@@ -1,13 +1,29 @@
+using Microsoft.EntityFrameworkCore;
+using MongoDB.Driver;
+using Twitter.Post.Application.Interfaces.Repository;
+using Twitter.Post.Domain.Models;
+using TwitterPost.Persistance;
+using Twitter.Post.Application;
 public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddPersistanceVoid(builder.Configuration);
+            builder.Services.AddApplicationServices();
+            
+
             var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
-            // Add services to the container.
-            // builder.Services.AddPersistanceVoid(builder.Configuration);
-            // builder.Services.AddApplicationServices();
+
+                // builder.Services.AddDbContext<ApplicationDbContext>(options => {
+                //    options.UseMongoDB("mongodb://localhost:27017", "TwitterPostApi");
+                // });     
+
+    
+
+         
+            
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy(MyAllowSpecificOrigins,

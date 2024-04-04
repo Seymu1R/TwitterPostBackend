@@ -12,14 +12,18 @@ public class ApplicationDbContext : DbContext
 {
     public DbSet<Post> Posts ;
 
+     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+     {
+
+     }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-
-        modelBuilder.Entity<Post>(b=> {
-          b.ToCollection("posts");
-          b.Property(c => c.Text).HasElementName("primaryName");
-        });
+       
+        modelBuilder.Entity<Post>()
+        .Property(e => e._id)
+        .ValueGeneratedOnAdd();
     }
 
 }

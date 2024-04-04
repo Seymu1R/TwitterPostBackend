@@ -12,6 +12,6 @@ public class Post : BaseEntity
     public ulong BookmarkCount { get; set; }
     public ulong View { get; set; }
     public Post Parent { get; set; }
-    public Guid? ParentId { get; set; }
+    public string? ParentId { get; set; }
     public ICollection<Post> Children { get; set; }
 }

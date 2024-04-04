@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Twitter.PostApi/1.0.0": {
         "dependencies": {
-          "MediatR": "12.2.0",
+          "MediatR": "11.1.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "Twitter.Post.Application": "1.0.0",
           "Twitter.Post.Domain": "1.0.0",
@@ -59,23 +59,34 @@
           }
         }
       },
-      "MediatR/12.2.0": {
+      "MediatR/11.1.0": {
         "dependencies": {
-          "MediatR.Contracts": "2.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "MediatR.Contracts": "1.0.1"
         },
         "runtime": {
-          "lib/net6.0/MediatR.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.2.0.0"
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
           }
         }
       },
-      "MediatR.Contracts/2.0.1": {
+      "MediatR.Contracts/1.0.1": {
         "runtime": {
           "lib/netstandard2.0/MediatR.Contracts.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.0"
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
           }
         }
       },
@@ -84,7 +95,7 @@
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.5",
           "Microsoft.EntityFrameworkCore.Analyzers": "7.0.5",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
         },
         "runtime": {
@@ -106,35 +117,64 @@
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "7.0.0"
+          "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
       "Microsoft.Extensions.Caching.Memory/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.0",
-          "Microsoft.Extensions.Primitives": "7.0.0"
+          "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
-      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "Microsoft.Extensions.Configuration/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
           }
         }
       },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11423"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Options": "7.0.0"
         }
@@ -142,11 +182,18 @@
       "Microsoft.Extensions.Logging.Abstractions/7.0.0": {},
       "Microsoft.Extensions.Options/7.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Primitives": "7.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
-      "Microsoft.Extensions.Primitives/7.0.0": {},
+      "Microsoft.Extensions.Primitives/8.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/5.0.0": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
@@ -162,55 +209,55 @@
           "System.Security.Principal.Windows": "5.0.0"
         }
       },
-      "MongoDB.Bson/2.22.0": {
+      "MongoDB.Bson/2.24.0": {
         "dependencies": {
           "System.Memory": "4.5.5",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Bson.dll": {
-            "assemblyVersion": "2.22.0.0",
-            "fileVersion": "2.22.0.0"
+            "assemblyVersion": "2.24.0.0",
+            "fileVersion": "2.24.0.0"
           }
         }
       },
-      "MongoDB.Driver/2.22.0": {
+      "MongoDB.Driver/2.24.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
-          "MongoDB.Bson": "2.22.0",
-          "MongoDB.Driver.Core": "2.22.0",
-          "MongoDB.Libmongocrypt": "1.8.0"
+          "MongoDB.Bson": "2.24.0",
+          "MongoDB.Driver.Core": "2.24.0",
+          "MongoDB.Libmongocrypt": "1.8.2"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Driver.dll": {
-            "assemblyVersion": "2.22.0.0",
-            "fileVersion": "2.22.0.0"
+            "assemblyVersion": "2.24.0.0",
+            "fileVersion": "2.24.0.0"
           }
         }
       },
-      "MongoDB.Driver.Core/2.22.0": {
+      "MongoDB.Driver.Core/2.24.0": {
         "dependencies": {
           "AWSSDK.SecurityToken": "3.7.100.14",
           "DnsClient": "1.6.1",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
-          "MongoDB.Bson": "2.22.0",
-          "MongoDB.Libmongocrypt": "1.8.0",
+          "MongoDB.Bson": "2.24.0",
+          "MongoDB.Libmongocrypt": "1.8.2",
           "SharpCompress": "0.30.1",
           "Snappier": "1.0.0",
           "System.Buffers": "4.5.1",
-          "ZstdSharp.Port": "0.6.2"
+          "ZstdSharp.Port": "0.7.3"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Driver.Core.dll": {
-            "assemblyVersion": "2.22.0.0",
-            "fileVersion": "2.22.0.0"
+            "assemblyVersion": "2.24.0.0",
+            "fileVersion": "2.24.0.0"
           }
         }
       },
       "MongoDB.EntityFrameworkCore/7.0.0-preview.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
-          "MongoDB.Driver": "2.22.0"
+          "MongoDB.Driver": "2.24.0"
         },
         "runtime": {
           "lib/net7.0/MongoDB.EntityFrameworkCore.dll": {
@@ -219,11 +266,11 @@
           }
         }
       },
-      "MongoDB.Libmongocrypt/1.8.0": {
+      "MongoDB.Libmongocrypt/1.8.2": {
         "runtime": {
           "lib/netstandard2.1/MongoDB.Libmongocrypt.dll": {
-            "assemblyVersion": "1.8.0.0",
-            "fileVersion": "1.8.0.0"
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
           }
         },
         "runtimeTargets": {
@@ -308,18 +355,20 @@
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
-      "ZstdSharp.Port/0.6.2": {
+      "ZstdSharp.Port/0.7.3": {
         "runtime": {
-          "lib/net6.0/ZstdSharp.dll": {
-            "assemblyVersion": "0.6.2.0",
-            "fileVersion": "0.6.2.0"
+          "lib/net7.0/ZstdSharp.dll": {
+            "assemblyVersion": "0.7.3.0",
+            "fileVersion": "0.7.3.0"
           }
         }
       },
       "Twitter.Post.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "MediatR": "12.2.0",
+          "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Twitter.Post.Domain": "1.0.0"
         },
         "runtime": {
@@ -327,6 +376,9 @@
         }
       },
       "Twitter.Post.Domain/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.24.0"
+        },
         "runtime": {
           "Twitter.Post.Domain.dll": {}
         }
@@ -334,6 +386,10 @@
       "TwitterPost.Persistence/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "MongoDB.Driver": "2.24.0",
+          "MongoDB.Driver.Core": "2.24.0",
           "MongoDB.EntityFrameworkCore": "7.0.0-preview.1",
           "Twitter.Post.Application": "1.0.0",
           "Twitter.Post.Domain": "1.0.0"
@@ -378,19 +434,26 @@
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
     },
-    "MediatR/12.2.0": {
+    "MediatR/11.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
-      "path": "mediatr/12.2.0",
-      "hashPath": "mediatr.12.2.0.nupkg.sha512"
+      "sha512": "sha512-YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
+      "path": "mediatr/11.1.0",
+      "hashPath": "mediatr.11.1.0.nupkg.sha512"
     },
-    "MediatR.Contracts/2.0.1": {
+    "MediatR.Contracts/1.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
-      "path": "mediatr.contracts/2.0.1",
-      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+      "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "path": "mediatr.contracts/1.0.1",
+      "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/7.0.5": {
       "type": "package",
@@ -434,19 +497,33 @@
       "path": "microsoft.extensions.caching.memory/7.0.0",
       "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+    "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
-      "path": "microsoft.extensions.dependencyinjection/7.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+      "sha512": "sha512-0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
+      "path": "microsoft.extensions.configuration/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
+      "path": "microsoft.extensions.dependencyinjection/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/7.0.0": {
       "type": "package",
@@ -469,12 +546,12 @@
       "path": "microsoft.extensions.options/7.0.0",
       "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/7.0.0": {
+    "Microsoft.Extensions.Primitives/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
-      "path": "microsoft.extensions.primitives/7.0.0",
-      "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
@@ -497,26 +574,26 @@
       "path": "microsoft.win32.registry/5.0.0",
       "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
     },
-    "MongoDB.Bson/2.22.0": {
+    "MongoDB.Bson/2.24.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7Z+uP+PeIBrkzzRORTCjrMSYhzQgXxLYkXyML8WsBN7tHddicNY9Xh8Cmp5gRR4U4NuEbXCQtHplju0iVY/KuA==",
-      "path": "mongodb.bson/2.22.0",
-      "hashPath": "mongodb.bson.2.22.0.nupkg.sha512"
+      "sha512": "sha512-n8CWaA4iTuoEQYv0+FSKNTX/hJozFQa5EgSILVNPhTGHcrbABHhpVrT1NwRRAAS6sUb8ZyhHmLPBa88LJemptA==",
+      "path": "mongodb.bson/2.24.0",
+      "hashPath": "mongodb.bson.2.24.0.nupkg.sha512"
     },
-    "MongoDB.Driver/2.22.0": {
+    "MongoDB.Driver/2.24.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ngswtmzdtfaq+L0Ti1Kjm0QnVLgEJK233YPCpGN2buSArY2xEPsnQ2yos7SPGxuDzZPnxdn+XG9/OBt9atCpWw==",
-      "path": "mongodb.driver/2.22.0",
-      "hashPath": "mongodb.driver.2.22.0.nupkg.sha512"
+      "sha512": "sha512-j1q11iMk3LN38ze6jgV1ATp+WKVVQbsGrhFkuOcHwRNtIk70TpLKjOD1Z3CCkyrzxCsUyhwk745tK2ASNOI4WA==",
+      "path": "mongodb.driver/2.24.0",
+      "hashPath": "mongodb.driver.2.24.0.nupkg.sha512"
     },
-    "MongoDB.Driver.Core/2.22.0": {
+    "MongoDB.Driver.Core/2.24.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aMlyeGbQ9wk/bmy9xSr6dnkOszO3MVgv1wNcsm4ACwiup//VCZxvj5k0Wq/E0xGBYmqs/tNXqJmLy1IawRXPHA==",
-      "path": "mongodb.driver.core/2.22.0",
-      "hashPath": "mongodb.driver.core.2.22.0.nupkg.sha512"
+      "sha512": "sha512-UW0yadpMPi9+MtLHy6onpol3D9tXMRg61P0ROnij+h35EOr0vt/nxvlPrDcUjl3SvttvpsEXQKxb2lQShBA1dA==",
+      "path": "mongodb.driver.core/2.24.0",
+      "hashPath": "mongodb.driver.core.2.24.0.nupkg.sha512"
     },
     "MongoDB.EntityFrameworkCore/7.0.0-preview.1": {
       "type": "package",
@@ -525,12 +602,12 @@
       "path": "mongodb.entityframeworkcore/7.0.0-preview.1",
       "hashPath": "mongodb.entityframeworkcore.7.0.0-preview.1.nupkg.sha512"
     },
-    "MongoDB.Libmongocrypt/1.8.0": {
+    "MongoDB.Libmongocrypt/1.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fgNw8Dxpkq7mpoaAYes8cfnPRzvFIoB8oL9GPXwi3op/rONftl0WAeg4akRLcxfoVuUvuUO2wGoVBr3JzJ7Svw==",
-      "path": "mongodb.libmongocrypt/1.8.0",
-      "hashPath": "mongodb.libmongocrypt.1.8.0.nupkg.sha512"
+      "sha512": "sha512-z/8JCULSHM1+mzkau0ivIkU9kIn8JEFFSkmYTSaMaWMMHt96JjUtMKuXxeGNGSnHZ5290ZPKIlQfjoWFk2sKog==",
+      "path": "mongodb.libmongocrypt/1.8.2",
+      "hashPath": "mongodb.libmongocrypt.1.8.2.nupkg.sha512"
     },
     "SharpCompress/0.30.1": {
       "type": "package",
@@ -609,12 +686,12 @@
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
     },
-    "ZstdSharp.Port/0.6.2": {
+    "ZstdSharp.Port/0.7.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jPao/LdUNLUz8rn3H1D8W7wQbZsRZM0iayvWI4xGejJg3XJHT56gcmYdgmCGPdJF1UEBqUjucCRrFB+4HbJsbw==",
-      "path": "zstdsharp.port/0.6.2",
-      "hashPath": "zstdsharp.port.0.6.2.nupkg.sha512"
+      "sha512": "sha512-U9Ix4l4cl58Kzz1rJzj5hoVTjmbx1qGMwzAcbv1j/d3NzrFaESIurQyg+ow4mivCgkE3S413y+U9k4WdnEIkRA==",
+      "path": "zstdsharp.port/0.7.3",
+      "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
     "Twitter.Post.Application/1.0.0": {
       "type": "project",
