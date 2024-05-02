@@ -21,8 +21,6 @@ namespace Twitter.Post.Application
 
         public async Task<BaseResponse> Handle(CreatePostCommand request, CancellationToken cancellationToken)
         {
-            Console.WriteLine(request.ToJson() + "Seymuradsdasfsa");
-
             Twitter.Post.Domain.Entities.Post post = _mapper.Map<Twitter.Post.Domain.Entities.Post>(request); 
             
             await _postRepository.AddAsync(post);

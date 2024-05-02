@@ -1,1 +1,60 @@
-﻿"restore":{"projectUniqueName":"/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/Twitter.PostApi.csproj","projectName":"Twitter.PostApi","projectPath":"/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/Twitter.PostApi.csproj","outputPath":"/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.PostApi/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net7.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net7.0":{"targetAlias":"net7.0","projectReferences":{"/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/TwitterPost.Persistence/TwitterPost.Persistence.csproj":{"projectPath":"/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/TwitterPost.Persistence/TwitterPost.Persistence.csproj"},"/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj":{"projectPath":"/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj"},"/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/Twitter.Post.Domain.csproj":{"projectPath":"/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/Twitter.Post.Domain.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net7.0":{"targetAlias":"net7.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.AspNetCore.App":{"privateAssets":"none"},"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/lib/dotnet/sdk/7.0.116/RuntimeIdentifierGraph.json"}}
+﻿{
+    "restore": {
+        "projectUniqueName": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/Twitter.Post.Api.csproj",
+        "projectName": "Twitter.Post.Api",
+        "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/Twitter.Post.Api.csproj",
+        "outputPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/obj/",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+            "net7.0"
+        ],
+        "sources": {
+            "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+            "net7.0": {
+                "targetAlias": "net7.0",
+                "projectReferences": {
+                    "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj": {
+                        "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj"
+                    },
+                    "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj": {
+                        "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj"
+                    },
+                    "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/Twitter.Post.Domain.csproj": {
+                        "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Domain/Twitter.Post.Domain.csproj"
+                    }
+                }
+            }
+        },
+        "warningProperties": {
+            "warnAsError": [
+                "NU1605"
+            ]
+        }
+    },"frameworks": {
+        "net7.0": {
+            "targetAlias": "net7.0",
+            "imports": [
+                "net461",
+                "net462",
+                "net47",
+                "net471",
+                "net472",
+                "net48",
+                "net481"
+            ],
+            "assetTargetFallback": true,
+            "warn": true,
+            "frameworkReferences": {
+                "Microsoft.AspNetCore.App": {
+                    "privateAssets": "none"
+                },
+                "Microsoft.NETCore.App": {
+                    "privateAssets": "all"
+                }
+            },
+            "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.116/RuntimeIdentifierGraph.json"
+        }
+    }
+}

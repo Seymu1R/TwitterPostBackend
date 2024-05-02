@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/hePizZlsbLFc5pxIdS0UK2fOkRJSw3LSXKHxaYm9tyhXy7SPOFIFMbAXr0i5HSkVl228ggRwfH/h4yM8sYhUQ==",
+  "dgSpecHash": "Q+6RfLX0C8qNIeSz9ZpZ4PNlC+8ppXpkjgLzKO92xRP4O4ZXdBQVxFld8eKlq0K7YA5mRDbgaY/3psdqFbrxEQ==",
   "success": true,
-  "projectFilePath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/TwitterPost.Persistence.csproj",
+  "projectFilePath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/cubics/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/cubics/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",

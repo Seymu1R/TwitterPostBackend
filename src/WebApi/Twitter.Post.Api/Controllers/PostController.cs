@@ -17,15 +17,21 @@ public class PostController : ControllerBase
         _mediator = mediator;
     }
     
-    [HttpPost("CreatePost")]
+   [HttpPost("CreatePost")]
     public async Task<IActionResult> CreatePost(CreatePostCommand createCommandPost) =>
        Ok(await _mediator.Send(createCommandPost));     
-    [HttpGet("GetAllPosts")]
+   [HttpGet("GetAllPosts")]
     public async Task<IActionResult> GetAllPosts( ) =>
        Ok(await _mediator.Send(new GetAllPostQuery { }));
-    [HttpGet("GetDiscount")]
-    public async Task<IActionResult> GetDiscount(string id) =>
-        Ok(await this.mediator.Send(new GetDiscountCommand { id }));   
+   [HttpGet("GetPost")]
+    public async Task<IActionResult> GetPost(string _id) =>
+        Ok(await _mediator.Send(new GetPostQuery {_id = _id}));   
 
-    
+   [HttpPost("UpdatePost")]
+    public async Task<IActionResult> UpdatePost(UpdatePostCommand updateCommandPost) =>
+       Ok(await _mediator.Send(updateCommandPost ));
+
+   [HttpDelete("DeletePost")]
+    public async Task<IActionResult> DeletePost(string _id) =>
+        Ok(await _mediator.Send(new DeletPostQuery {_id = _id}));        
 }

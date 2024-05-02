@@ -703,7 +703,7 @@
           "bin/placeholder/Twitter.Post.Domain.dll": {}
         }
       },
-      "TwitterPost.Persistence/1.0.0": {
+      "Twitter.Post.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -717,10 +717,10 @@
           "Twitter.Post.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TwitterPost.Persistence.dll": {}
+          "bin/placeholder/Twitter.Post.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TwitterPost.Persistence.dll": {}
+          "bin/placeholder/Twitter.Post.Persistence.dll": {}
         }
       }
     }
@@ -1989,10 +1989,10 @@
       "path": "../../core/Twitter.Post.Domain/Twitter.Post.Domain.csproj",
       "msbuildProject": "../../core/Twitter.Post.Domain/Twitter.Post.Domain.csproj"
     },
-    "TwitterPost.Persistence/1.0.0": {
+    "Twitter.Post.Persistence/1.0.0": {
       "type": "project",
-      "path": "../../Infrastructure/Twitter.Post.Persistence/TwitterPost.Persistence.csproj",
-      "msbuildProject": "../../Infrastructure/Twitter.Post.Persistence/TwitterPost.Persistence.csproj"
+      "path": "../../Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj",
+      "msbuildProject": "../../Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2001,7 +2001,7 @@
       "Swashbuckle.AspNetCore >= 6.5.0",
       "Twitter.Post.Application >= 1.0.0",
       "Twitter.Post.Domain >= 1.0.0",
-      "TwitterPost.Persistence >= 1.0.0"
+      "Twitter.Post.Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2010,9 +2010,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/Twitter.PostApi.csproj",
-      "projectName": "Twitter.PostApi",
-      "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/Twitter.PostApi.csproj",
+      "projectUniqueName": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/Twitter.Post.Api.csproj",
+      "projectName": "Twitter.Post.Api",
+      "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/Twitter.Post.Api.csproj",
       "packagesPath": "/home/cubics/.nuget/packages/",
       "outputPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/WebApi/Twitter.Post.Api/obj/",
       "projectStyle": "PackageReference",
@@ -2029,8 +2029,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/TwitterPost.Persistence.csproj": {
-              "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/TwitterPost.Persistence.csproj"
+            "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj": {
+              "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj"
             },
             "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj": {
               "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/core/Twitter.Post.Application/Twitter.Post.Application.csproj"

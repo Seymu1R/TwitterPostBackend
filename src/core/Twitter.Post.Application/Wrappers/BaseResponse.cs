@@ -2,8 +2,8 @@ namespace Twitter.Post.Application.Wrappers;
 
 public class BaseResponse
 {
-    public string Id { get; set; }
-    public bool Success { get; set; }
-    public String Message { get; set; }
+    public Guid Id { get; set; } = Guid.NewGuid();
+    public bool Success { get; set; } = true;
+    public string? Message { get; set; }
     public int StatusCode { get; set; }
 }

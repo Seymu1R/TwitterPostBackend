@@ -9,7 +9,7 @@
     <ItemGroup>
       <ProjectReference Include="..\..\core\Twitter.Post.Application\Twitter.Post.Application.csproj" />
       <ProjectReference Include="..\..\core\Twitter.Post.Domain\Twitter.Post.Domain.csproj" />
-      <ProjectReference Include="..\..\Infrastructure\Twitter.Post.Persistence\TwitterPost.Persistence.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\Twitter.Post.Persistence\Twitter.Post.Persistence.csproj" />
     </ItemGroup>
 
     <ItemGroup>

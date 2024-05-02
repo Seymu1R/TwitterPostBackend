@@ -1948,9 +1948,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/TwitterPost.Persistence.csproj",
-      "projectName": "TwitterPost.Persistence",
-      "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/TwitterPost.Persistence.csproj",
+      "projectUniqueName": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj",
+      "projectName": "Twitter.Post.Persistence",
+      "projectPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/Twitter.Post.Persistence.csproj",
       "packagesPath": "/home/cubics/.nuget/packages/",
       "outputPath": "/home/cubics/Desktop/TwitterPost/TwitterPost/src/Infrastructure/Twitter.Post.Persistence/obj/",
       "projectStyle": "PackageReference",
